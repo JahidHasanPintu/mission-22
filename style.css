@@ -16,7 +16,7 @@ body{
    
     padding-left: 10%;
     padding-right: 5%;
-    padding-bottom: 10%;
+    
     
 }
 .half-width-2 img{
@@ -33,6 +33,9 @@ body{
     padding-left: 2%;
     line-height: 100%;
 }
+h1{
+    color: #333333;
+}
 .colored-title{
     color: #FFAD5A;
 }
@@ -47,4 +50,83 @@ a{
 p{
     margin-top: 10%;
     margin-bottom: 10%;
+}
+.msn-title{
+    font-size: 40px;
+    color: #13103A;
+    text-align: center;
+    font-weight: 800;
+}
+.mission-section{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.dev-section{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 7%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+.msn-box{
+    padding: 2%;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: hsla(185, 36%, 48%,0.1);
+    
+    
+
+}
+.msn-box img{
+    width: 30%;
+}
+.vission{
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+.goal{
+    background-color: #FFF4D6;
+}
+
+.dev-img img{
+    width: 80%;
+}
+.dev-text h1{
+    font-size: 35px;
+    line-height: 80%;
+    
+}
+.com-img img{
+    width: 80%;
+    padding-left: 25%;
+}
+#com-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+}
+.footer{
+    height: 177px;
+    background-color:#0B0D17 ;
+    text-align: center;
+}
+.footer h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 40px;
+    padding-top: 3%;
+    font-weight: 400;
+    line-height: 50%;
+}
+.footer h3{
+    color:white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.col-foot{
+    color: #FF5959;
 }
